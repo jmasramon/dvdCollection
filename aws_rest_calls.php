@@ -1,10 +1,10 @@
 <?php
 
 // Your AWS Access Key ID, as taken from the AWS Your Account page
-$aws_access_key_id = "AKIAJ7236BNNRQ3JSLIQ";
+$aws_access_key_id = "";
 
 // Your AWS Secret Key corresponding to the above ID, as taken from the AWS Your Account page
-$aws_secret_key = "BeIH/GMK1nObUUyJj38vAh/H39AoRT78YT4IU6Qg";
+$aws_secret_key = "";
 
 // The region you are interested in
 $endpoint = "webservices.amazon.com";
