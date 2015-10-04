@@ -1,0 +1,2 @@
+while read line; do echo curl "http://webservices.amazon.com/onca/xml?AWSAccessKeyId=AKIAJ7236BNNRQ3JSLIQ&AssociateTag=jordisthought-21&Keywords=\"$line\"%202000&Operation=ItemSearch&ResponseGroup=Images%2CItemAttributes%2COffers&SearchIndex=Movies&Service=AWSECommerceService&Sort=price&Timestamp=2015-10-03T15%3A28%3A14.000Z&Signature=bf70rfWAo1U6EVb04V8%2BtNCoRyZ5S4ZcYvn3LzRJWkc%3D"; done < arxiuRamon_titols.csv > aws_rest_calls.txt
+

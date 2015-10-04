@@ -1,0 +1,2 @@
+while read line; do echo $line | bash; sleep 1.2; done < aws_rest_calls.txt > aws_rest_responses.xml
+# while read line; do echo $line | bash; sleep 1.2; done < aws_rest_calls.txt > sed 's/$t/t/' | aws_rest_responses.xml

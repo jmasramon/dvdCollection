@@ -1,0 +1,1 @@
+while read line; do echo $line | xml2json | jq . ; done < partial.xml > partial_formatted.json
